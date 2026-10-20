@@ -1,0 +1,120 @@
+body {
+background-color: #0f172a;
+color: #ffffff;
+font-family: sans-serif;
+margin: 0px;
+padding-top: 40px;
+}
+
+.card {
+background-color: #1e293b;
+width: 320px;
+padding: 20px;
+border-radius: 12px;
+border: 2px solid #06b6d4;
+}
+
+h1 {
+color: #06b6d4;
+font-size: 24px;
+margin: 0px;
+font-weight: 600;
+}
+
+h2 {
+color: #06b6d4;
+font-size: 18px;
+margin: 0px 0px 10px 0px;
+font-weight: 600;
+}
+
+.tagline {
+color: #cbd5e1;
+font-size: 13px;
+margin-top: 5px;
+font-weight: 500;
+}
+
+.goal {
+color: #22d3ee;
+font-size: 13px;
+margin-top: 3px;
+font-weight: 600;
+}
+
+.desc {
+color: #e2e8f0;
+font-size: 13px;
+margin: 0px;
+font-weight: 500;
+}
+
+.skill-item {
+background-color: #0f172a;
+color: #22d3ee;
+padding: 5px;
+border-radius: 5px;
+font-size: 13px;
+font-weight: 600;
+margin: 5px 0px;
+border: 1px solid #06b6d4;
+}
+
+.proj-title {
+color: #06b6d4;
+font-size: 14px;
+font-weight: 600;
+margin: 0px;
+}
+
+.proj-link {
+display: inline-block;
+margin-top: 5px;
+background-color: #06b6d4;
+color: #000000;
+padding: 4px 10px;
+font-size: 12px;
+border-radius: 4px;
+text-decoration: none;
+font-weight: 600;
+}
+
+.proj-link:hover {
+background-color: #22d3ee;
+}
+
+.contact-card {
+text-align: left;
+}
+
+.contact-card h2 {
+text-align: center;
+}
+
+.contact-item {
+font-size: 13px;
+font-weight: 500;
+color: #ffffff;
+margin: 10px 0px;
+display: flex;
+align-items: center;
+gap: 10px;
+padding-left: 10px;
+}
+
+.contact-item i {
+color: #06b6d4;
+font-size: 15px;
+width: 20px;
+text-align: center;
+}
+
+.contact-item a {
+color: #22d3ee;
+text-decoration: none;
+font-weight: 600;
+}
+
+.contact-item a:hover {
+text-decoration: underline;
+}
