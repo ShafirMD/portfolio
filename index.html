@@ -1,72 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Md Shafir - Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>MD Shafir - Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <center>
-    <div class="card header-card">
-        <h1>Md Shafir</h1>
-        <p class="tagline">Student at CAD製図専門学校</p>
-        <p class="goal">Aspiring Front-End Developer</p>
+  <!-- navbar -->
+  <div class="navbar">
+    <div class="content nav-inner">
+      <h2>MD Shafir</h2>
+      <div class="menu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
+  </div>
 
-    <br>
+  <!-- intro -->
+  <div class="hero">
+    <div class="content hero-inner">
 
-    <div class="card">
-        <h2>About Me</h2>
-        <p class="desc">Hello! I am Md Shafir. Currently, I am a student studying at CAD製図専門学校. I want to become a professional Front-End Developer.</p>
+      <div class="hero-text">
+        <p class="small-text">● Open to junior roles</p>
+        <h1>Hi, I am <span class="name">MD Shafir</span></h1>
+        <p class="hero-p">I am a junior front-end developer. I build useful web tools with HTML, CSS and JavaScript.</p>
+        <a class="button" href="#projects">View my work</a>
+        <a class="button outline" href="#contact">Contact me</a>
+      </div>
+
     </div>
+  </div>
 
-    <br>
-
-    <div class="card">
-        <h2>My Skills</h2>
-        <p class="skill-item">HTML</p>
-        <p class="skill-item">CSS</p>
-        <p class="skill-item">JavaScript</p>
-        <p class="skill-item">AutoCAD</p>
+  <!-- about -->
+  <div class="section" id="about">
+    <div class="content">
+      <h2>About me</h2>
+      <p>I work with HTML, CSS and JavaScript. I like making small tools that we use in daily life, like sharing a link or logging in to a website.</p>
+      <p>I learn by making real projects and I am looking for my first developer job.</p>
     </div>
+  </div>
 
-    <br>
+  <!-- projects -->
+  <div class="section" id="projects">
+    <div class="content">
+      <h2>My Projects</h2>
 
-    <div class="card">
-        <h2>My Projects</h2>
-        
-        <p class="proj-title">1. Log In Page</p>
-        <p class="desc">A simple login page designed for web users.</p>
-        <a href="https://shafirmd.github.io/log-in/" target="_blank" class="proj-link">Live Link</a>
-        
-        <br><br>
+      <div class="row">
 
-        <p class="proj-title">2. QR Code Generator</p>
-        <p class="desc">A tool to generate custom QR codes instantly.</p>
-        <a href="https://shafirmd.github.io/qr-code/" target="_blank" class="proj-link">Live Link</a>
-    </div>
-
-    <br>
-
-    <div class="card contact-card">
-        <h2>Contact Me</h2>
-        
-        <div class="contact-item">
-            <i class="fa-solid fa-phone"></i> <span>07013397890</span>
+        <div class="box">
+          <div class="icon">📱</div>
+          <h3>QR Code Generator</h3>
+          <p>Make a QR code from any text or link, so we can share things easily.</p>
+          <p class="tools">HTML, CSS, JavaScript</p>
+          <a href="https://shafirmd.github.io/qr-code/">Live demo</a>
+          <a href="https://github.com/shafirmd/qr-code">Code</a>
         </div>
 
-        <div class="contact-item">
-            <i class="fa-solid fa-envelope"></i> <span>shafir.babo@gmail.com</span>
+        <div class="box">
+          <div class="icon">🔐</div>
+          <h3>Login Page</h3>
+          <p>A simple login page. Almost every website needs one.</p>
+          <p class="tools">HTML, CSS, JavaScript</p>
+          <a href="https://shafirmd.github.io/log-in/">Live demo</a>
+          <a href="https://github.com/shafirmd/log-in">Code</a>
         </div>
 
-        <div class="contact-item">
-            <i class="fa-brands fa-github"></i> <a href="https://github.com/ShafirMD" target="_blank">ShafirMD</a>
-        </div>
+      </div>
     </div>
+  </div>
 
-    <br><br>
-    </center>
+  <!-- skills -->
+  <div class="section" id="skills">
+    <div class="content">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git and GitHub</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div class="section" id="contact">
+    <div class="content">
+      <h2>Contact me</h2>
+      <p>I am looking for my first developer job. You can contact me here:</p>
+
+      <div class="row">
+
+        <div class="box">
+          <div class="icon">✉️</div>
+          <p class="tools">Email</p>
+          <a href="mailto:shafir.babo@gmail.com">shafir.babo@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <div class="icon">📞</div>
+          <p class="tools">Phone</p>
+          <a href="tel:+817013397890">070-1339-7890</a>
+        </div>
+
+        <div class="box">
+          <div class="icon">💻</div>
+          <p class="tools">GitHub</p>
+          <a href="https://github.com/shafirmd">github.com/shafirmd</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <p>© <span id="year">2026</span> MD Shafir</p>
+  </div>
+
+  <script>
+    // show current year in footer
+    var year = new Date().getFullYear();
+    document.getElementById("year").innerHTML = year;
+  </script>
 
 </body>
 </html>
